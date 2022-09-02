@@ -11,7 +11,7 @@ const Download = () => {
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>Download the Source Code</h1>
           <p className={`${styles.pText} ${styles.blackText}`}>Get the full source code on GitHub</p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button className="bg-black flex items-center py-2 px-4 text-white text-lg rounded-md mt-2 w-fit cursor-pointer">Source Code</button>
         <div className={styles.flexCenter}>
           <img 
             src={assets.scene}
